@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    
+}
+.container{
+    position: relative;
+    /* height: 100vh; */
+    /* background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-repeat: no-repeat;
+    background-position:center center; */
+}
+.container{
+    background-color: #362619 ;
+}
+.container .nav-bar{
+    padding: 20px  100px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .nav-bar div.logo{
+    padding-top: 15px;
+}
+.container .nav-bar div.logo img.logo-image{
+    height: 60%;
+}
+
+
+.container .nav-bar div.nav-list-section{
+    width: 70%;
+    display: flex;
+    /* background-color: green; */
+    justify-content: space-between;
+}
+
+
+.container .nav-bar div.nav-list-section ul.nav-list{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    /* margin: 0 50px; */
+    /* background-color: aqua; */
+}
+.container .nav-bar div.nav-list-section ul.nav-list li.list{
+    color: rgb(211, 209, 209);
+    font-weight: 500;
+    font-size: 17px;
+    /* margin: 0 50px; */
+}
+.container .nav-bar div.nav-list-section ul.nav-list li.list:hover{
+    
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .nav-list-section  ul  li.highlight-list{
+    color: white;
+    font-weight: 700;
+}
+.container .nav-bar div.nav-list-section ul.nav-list li.list::marker{
+    color: transparent;
+}
+
+.container .nav-bar div.nav-list-section button.register-button{
+    width: 15%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid  #E8BD0D;
+    color: #E8BD0D;
+    font-size: 17px;
+    font-weight: 600;
+    background-color:transparent;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* HEAD */
+.head{
+    width: 100%;
+    height: 30%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #E8BD0D; */
+}
+.heading-left{
+    width: 45%;
+    font-size: 45px;
+    line-height: 90px;
+    color: white;
+    /* background-color: #1B98F5; */
+}
+.text-right{
+    width: 30%;
+    /* background-color: #1B98F5; */
+    position: relative;
+    right: 15%;
+    padding-top: 3%;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+/* IMAGE */
+.main-img{
+    /* border: 10px solid white; */
+    /* margin-top: -5%; */
+    /* height: 35%; */
+    background-color: #362619;
+   
+}
+.main-img img{
+    /* height: 35%; */
+    /* height: 377px; */
+    height: 400px;
+    width: 100%;
+   
+}
+
+
+
+
+
+/*  */
+.ps{
+    height: 70px;
+    width: 100%;
+    background-color: #362619 ;
+
+    /* z-index: 1; */
+}
+.pss{
+    /* background-color: #1B98F5; */
+    height: 70px;
+    width: 80px;
+    padding: relative;
+}
+.pss1{
+    background-color: #5d9935;
+    position: absolute;
+    right: 0;
+}
+.pss2{
+ 
+    position: absolute;
+    right: 5%;
+    background-color: #6b5442;
+}
+
+.pssb{
+    height: 45px;
+    width: 45px;
+    border-radius: 50% 50%;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border: 1px solid white;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.pssb1{
+    background-color: #5d9935;
+}
+.pssb2{
+    background-color: #6b5442;
+}
+
+
